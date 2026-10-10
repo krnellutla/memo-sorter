@@ -2,6 +2,9 @@
 
 Tags a short note as `idea`, `todo`, `reminder` or `journal`. Part of [tinkeryard.dev](https://tinkeryard.dev).
 
+Model: https://huggingface.co/knellutla/memo-sorter-minilm  
+Demo: https://huggingface.co/spaces/knellutla/memo-sorter
+
 ## Data
 - `data/train.csv`: 360 notes generated from templates (`src/make_data.py`).
 - `data/test.csv`: 48 hand-written notes with different wording, never seen in training.
